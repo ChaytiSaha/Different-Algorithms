@@ -1,3 +1,6 @@
+/** lightoj 1112 **/
+
+
 #include<bits/stdc++.h>
 
 #define ll                      long long int
