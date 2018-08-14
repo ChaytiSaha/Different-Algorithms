@@ -1,3 +1,5 @@
+/*Problem link : https://www.spoj.com/problems/PRIME1/   */
+
 #include <string.h>
 #include<bits/stdc++.h>
 #define MAX 100000000//46656
