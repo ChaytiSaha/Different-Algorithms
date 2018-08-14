@@ -1,3 +1,6 @@
+
+/* Problem link : http://lightoj.com/volume_showproblem.php?problem=1197 */
+
 #include <string.h>
 #include<bits/stdc++.h>
 #define MAX 46656
