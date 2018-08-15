@@ -1,4 +1,6 @@
 /* Problem Link : http://www.lightoj.com/volume_showproblem.php?problem=1082 */
+/* Segment tree*/
+
 
 #include<bits/stdc++.h>
 
