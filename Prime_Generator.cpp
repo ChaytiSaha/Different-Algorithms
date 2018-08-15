@@ -1,4 +1,5 @@
 /*Problem link : https://www.spoj.com/problems/PRIME1/   */
+/* Segmented Sieve*/
 
 #include <string.h>
 #include<bits/stdc++.h>
