@@ -1,5 +1,5 @@
 /** lightoj 1112 **/
-
+/** Segment tree*/
 
 #include<bits/stdc++.h>
 
