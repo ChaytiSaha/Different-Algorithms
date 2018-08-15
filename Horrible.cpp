@@ -1,4 +1,6 @@
 /** https://www.spoj.com/problems/HORRIBLE/*/
+// segment tree lazy propagation
+
 #include<bits/stdc++.h>
 
 #define ll                      long long int
