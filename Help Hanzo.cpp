@@ -1,5 +1,7 @@
 
 /* Problem link : http://lightoj.com/volume_showproblem.php?problem=1197 */
+/*Segmented Sieve*/
+
 
 #include <string.h>
 #include<bits/stdc++.h>
