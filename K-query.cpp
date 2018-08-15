@@ -1,4 +1,6 @@
 /** K-Query spoj*/
+/*Segment tree with offline query*/
+
 
 #include<iostream>
 #include<string.h>
