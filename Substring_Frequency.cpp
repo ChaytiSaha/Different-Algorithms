@@ -1,5 +1,7 @@
 /** http://www.lightoj.com/volume_showproblem.php?problem=1255*/
 //Substring Frequency
+//KMP algorithm
+
 
 #include <stdio.h>
 #include <stdlib.h>
