@@ -24,6 +24,34 @@ Case 3:
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+
+ // Convert a Decimal Base to Any Base
+
+void convert10tob(int N, int b)//number, base
+
+{
+
+     if (N == 0)
+
+        return;
+
+     int x = N % b;
+
+     N /= b;
+
+     if (x < 0)
+
+        N += 1; 
+
+     convert10tob(N, b);
+
+     cout<< x < 0 ? x + (b * -1) : x;
+
+     return;
+
+}
+*/
 char digit_hex(int x)
 {
     if(x >= 0 && x < 10) return (x + '0');
