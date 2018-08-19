@@ -24,10 +24,39 @@
 
 typedef  unsigned long long ull;
 
-template <typename T>string toString( T Number ){stringstream st;st << Number;return st.str();}
-int stringconvert(string s){int p; istringstream st(s); st>>p ; return p;}
+/*
+template <typename T>
+string toString( T Number )
+{
+    stringstream st;
+    st << Number;
+    return st.str();
+}
+*/
 
+/*
+int stringconvert(string s)
+{
+    int p; 
+    istringstream st(s); 
+    st>>p ; 
+    return p;
+}
+*/
 
+/*
+int arr[5000],i;
+void stringconvert(string s)
+{
+    int p;
+    istringstream g(s);
+    while(g>>p)
+        arr[i++]=p;
+}
+
+*/
+
+/*
 ll Bigmod(ll base, ll power, ll mod)
 {
     if(power==0)
@@ -46,6 +75,7 @@ ll Bigmod(ll base, ll power, ll mod)
 
     return x;
 }
+*/
 
 /*
 ll modInverse(ll a, ll m)
