@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+using namespace std;
+
 
 #define ull unsigned long long int
 #define ll long long int
@@ -41,6 +43,24 @@ int stringconvert(string s)
     istringstream st(s); 
     st>>p ; 
     return p;
+}
+*/
+
+/*
+  Cheking divisibility of any large number (may be 1000 digits) by a number // 1000000000000000000000000000000 is divisible by 4 or not
+----------------------------------------------------------------------------
+bool get_result1(string str)// str is the large number which is to be checked
+{
+    ll n=0;
+
+    for(int i=0;str[i];i++){
+        n=( n*10+ (str[i]-'0') )% number_that_divide_str;
+    }
+    if(n==0)
+        return 0;//divisible
+    else
+        return 1;//not divisible
+
 }
 */
 
@@ -201,8 +221,6 @@ cout<<X.order_of_key(-5)<<endl;  // 0 //cout<<X.order_of_key(1)<<endl;   // 0 //
 #define mx    100009
 #define mod   1000000007
 ////=====================================////
-
-using namespace std;
 
 
 int main()
