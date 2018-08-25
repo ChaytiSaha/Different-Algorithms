@@ -26,6 +26,28 @@ using namespace std;
 
 typedef  unsigned long long ull;
 
+ll SQRT(ll x)
+{
+    ll res,a = sqrt(x*1.0);
+    for(ll i = max(a-2,0LL); i <= a+2; i++)
+    {
+        if(i*i<=x)
+            res = i;
+    }
+    return res;
+}
+
+ll CBRT(ll x)
+{
+    ll res,a = cbrt(x*1.0);
+    for(ll i = max(a-2,0LL); i <= a+2; i++)
+    {
+        if(i*i*i<=x)
+            res = i;
+    }
+    return res;
+}
+
 /*
 template <typename T>
 string toString( T Number )
