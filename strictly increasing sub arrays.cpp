@@ -1,4 +1,4 @@
-// C++ program to count number of strictly increasing subarrays in an array in O(n) time.
+// C++ program to count number of continuous strictly increasing subarrays in an array in O(n) time.
 #include<bits/stdc++.h>
 using namespace std;
 
