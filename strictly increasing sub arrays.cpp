@@ -1,4 +1,8 @@
-// C++ program to count number of continuous strictly increasing subarrays in an array in O(n) time.
+Code ::: 1
+-----------
+C++ program to count number of continuous strictly increasing subarrays in an array in O(n) time.
+-------------------------------------------------------------------------------------------------
+    
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -37,6 +41,45 @@ int countIncreasing(int arr[], int n)
 int main()
 {
   int arr[] = {1, 2, 2, 4};
+  int n = sizeof(arr)/sizeof(arr[0]);
+  cout << "Count of strictly increasing subarrays is "
+       << countIncreasing(arr, n);
+  return 0;
+}
+
+
+
+Code  ::: 2
+------------
+finding the lengths of continuous strictly increasing subarrays
+---------------------------------------------------------------
+// C++ program to count number of strictly
+// increasing subarrays
+#include<bits/stdc++.h>
+using namespace std;
+
+int countIncreasing(int arr[], int n)
+{
+    int cnt = 0;
+
+    for (int i=0; i<n; i++)
+    {
+        for (int j=i+1; j<n; j++)
+        {
+            if (arr[j] > arr[j-1]){
+                cnt++;
+                ///cout<<i<<"   "<<j<<"   "<<j-i+1<<endl;//length of increasing sub arrays is j-i+1
+            }
+
+            else break;
+        }
+    }
+    return cnt;
+}
+
+int main()
+{
+  int arr[] = {1,2,2,1};
   int n = sizeof(arr)/sizeof(arr[0]);
   cout << "Count of strictly increasing subarrays is "
        << countIncreasing(arr, n);
