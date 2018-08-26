@@ -26,6 +26,21 @@ using namespace std;
 
 typedef  unsigned long long ull;
 
+//lucky number
+//---------------------------
+const long long mx = 1e10;
+vector <long long> a;
+long long DP(long long x)
+{
+    if (x<=mx)
+    {
+        a.push_back(x);
+        DP(x*10+4);
+        DP(x*10+7);
+    }
+}
+//----------------------------
+
 ll SQRT(ll x)
 {
     ll res,a = sqrt(x*1.0);
@@ -248,6 +263,7 @@ cout<<X.order_of_key(-5)<<endl;  // 0 //cout<<X.order_of_key(1)<<endl;   // 0 //
 int main()
 {
 
+    //DP(0);
     return 0;
 }
 
