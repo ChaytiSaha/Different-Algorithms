@@ -26,6 +26,33 @@ using namespace std;
 
 typedef  unsigned long long ull;
 
+//reversing a string
+void reverseStr(string &str)
+{
+    int n = str.size();
+
+    for (int i = 0; i < n / 2; i++)
+        swap(str[i], str[n - i - 1]);
+}
+
+//checking palindrome
+bool isPalindrome(string str)
+{
+    int l = 0;
+    int h = str.size() - 1;
+
+    while (h > l)
+    {
+        if (str[l++] != str[h--])
+        {
+            cnt=l-1;
+            sp=h+2;
+            return false;
+        }
+    }
+    return true;
+}
+
 //lucky number
 //---------------------------
 const long long mx = 1e10;
